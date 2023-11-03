@@ -1,0 +1,129 @@
+@media (width <= 786px) {
+    .weather-container {
+    width: 80vw;
+    height: 70vh;
+    .left-container{
+        width: 40vw;
+        height: 80vh;
+        .location-name{
+            width:39vw;
+        }
+        .Digitaltime-container{
+            width: 35vw;
+        }
+        .date-temp{
+            width: 35vw;
+            .date{
+            width: 30vw;
+            }
+            .temp-c {
+                width: 5vw;
+            }
+        }
+    }
+    .right-container{
+        width: 40vw;
+        height: 80vh;
+        .logo-box{
+width: 29vw;
+            .logo-img{
+width: 16vw;
+            }
+        }
+        .weather-info{
+            width: 30vw;
+            height: 6vh;
+        }
+        .search-box{
+            width: 30vw;
+            height: 8vh;
+            .inputsearch{
+                width: 25vw;
+            }
+            #citySubmit{
+                width: 5vw;
+            }
+        }
+        .location-box{
+            width: 29vw;
+            height: 6vh;
+        }
+        .temp-box{
+            width: 29vw;
+            height: 6vh;
+        }
+        .humidity-box{
+            width: 29vw;
+            height: 6vh;
+        }
+        .maxtemp-box{
+            width: 29vw;
+            height: 6vh;
+        }
+        .mintemp-box{
+            width: 29vw;
+            height: 6vh;
+        }
+        .wind-box{
+            width: 29vw;
+            height: 6vh;
+        }
+    }
+    }
+}
+
+@media (width <= 425px) {
+    .weather-container {
+    width: 100vw;
+    height: 100vh;
+    margin: 5rem 0;
+    .left-container{
+        width: 50vw;
+        height: 80vh;
+        .location-name{
+            width:49vw;
+        }
+        .Digitaltime-container{
+            width: 35vw;
+            font-size: 25px;
+        }
+        .date-temp{
+        min-width: 45vw;
+            .date{
+                width: 40vw;
+                font-size: 20px;
+            }
+            .temp-c {
+                width: 10vw;
+                font-size: 20px;
+            }
+        }
+    }
+    .right-container{
+        width: 50vw;
+        height: 80vh;
+        .logo-box{
+width: 29vw;
+            .logo-img{
+width: 29vw;
+            }
+        }
+        .weather-info{
+            width: 30vw;
+        }
+        .search-box{
+            width: 30vw;
+            .inputsearch{
+                width: 25vw;
+            }
+            #citySubmit{
+                width: 5vw;
+            }
+        }
+        .location-box,.temp-box,.humidity-box,.maxtemp-box,.mintemp-box,.wind-box{
+width: 40vw;
+        }
+    }
+    }
+    
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/Responsive.css">
+    <script src="./js/main.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+    <section class="weather-container">
+        <article class="left-container">
+            <div class="location-name" id="locationname"></div>
+            <section class="Digitaltime-container">  
+    <article id="DigitalHour"></article>
+    <span>:</span>
+    <article id="DigitalMinutes"></article>
+    <span>:</span>
+    <article id="DigitalSeconds"></article>
+    &nbsp; 
+    <article id="DigitalAmPm"></article>
+            </section>
+            <div class="date-temp">
+                <h4 class="date"><span data-day></span>, <span data-date></span> <span data-month></span> <span data-year></span></h4>
+                <div class="temp-c">
+                <span id="Temp"></span><sup>°C </sup>
+                </div>
+            </div>
+        </article>
+        <article class="right-container">
+            <div class="logo-box"><img src="./assets/logo.png" alt="logo" class="logo-img"></div>
+            <!-- <span class="weather-info">Haze</span> -->
+            <div class="search-box">
+                <input type="search" id="city" placeholder="search" class="inputsearch" required>
+                <button type="submit" class="fa-solid fa-magnifying-glass fa-lg" id="citySubmit"></button>
+            </div>
+            <div class="location-box"><span id="cityname"></span></div>
+            <div class="temp-box"><span>Temperature</span><span id="temp"></span>°C</div>
+            <div class="humidity-box">Humidity<span id="humidity"></span><span></span></div>
+            <div class="maxtemp-box">Max-temp<span id="max_temp"></span>°C </div>
+            <div class="mintemp-box">Min-temp<span id="min_temp"></span>°C </div>
+            <div class="wind-box">Wind Speed<span id="wind_speed"></span><sub>Km/h</sub></div>
+
+        </article>
+    </section>
+</body>
+</html>

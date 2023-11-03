@@ -1,0 +1,127 @@
+@media (width <= 786px) {
+  .weather-container {
+    width: 80vw;
+    height: 70vh;
+  }
+  .weather-container .left-container {
+    width: 40vw;
+    height: 80vh;
+  }
+  .weather-container .left-container .location-name {
+    width: 39vw;
+  }
+  .weather-container .left-container .Digitaltime-container {
+    width: 35vw;
+  }
+  .weather-container .left-container .date-temp {
+    width: 35vw;
+  }
+  .weather-container .left-container .date-temp .date {
+    width: 30vw;
+  }
+  .weather-container .left-container .date-temp .temp-c {
+    width: 5vw;
+  }
+  .weather-container .right-container {
+    width: 40vw;
+    height: 80vh;
+  }
+  .weather-container .right-container .logo-box {
+    width: 29vw;
+  }
+  .weather-container .right-container .logo-box .logo-img {
+    width: 16vw;
+  }
+  .weather-container .right-container .weather-info {
+    width: 30vw;
+    height: 6vh;
+  }
+  .weather-container .right-container .search-box {
+    width: 30vw;
+    height: 8vh;
+  }
+  .weather-container .right-container .search-box .inputsearch {
+    width: 25vw;
+  }
+  .weather-container .right-container .search-box #citySubmit {
+    width: 5vw;
+  }
+  .weather-container .right-container .location-box {
+    width: 29vw;
+    height: 6vh;
+  }
+  .weather-container .right-container .temp-box {
+    width: 29vw;
+    height: 6vh;
+  }
+  .weather-container .right-container .humidity-box {
+    width: 29vw;
+    height: 6vh;
+  }
+  .weather-container .right-container .maxtemp-box {
+    width: 29vw;
+    height: 6vh;
+  }
+  .weather-container .right-container .mintemp-box {
+    width: 29vw;
+    height: 6vh;
+  }
+  .weather-container .right-container .wind-box {
+    width: 29vw;
+    height: 6vh;
+  }
+}
+@media (width <= 425px) {
+  .weather-container {
+    width: 100vw;
+    height: 100vh;
+    margin: 5rem 0;
+  }
+  .weather-container .left-container {
+    width: 50vw;
+    height: 80vh;
+  }
+  .weather-container .left-container .location-name {
+    width: 49vw;
+  }
+  .weather-container .left-container .Digitaltime-container {
+    width: 35vw;
+    font-size: 25px;
+  }
+  .weather-container .left-container .date-temp {
+    min-width: 45vw;
+  }
+  .weather-container .left-container .date-temp .date {
+    width: 40vw;
+    font-size: 20px;
+  }
+  .weather-container .left-container .date-temp .temp-c {
+    width: 10vw;
+    font-size: 20px;
+  }
+  .weather-container .right-container {
+    width: 50vw;
+    height: 80vh;
+  }
+  .weather-container .right-container .logo-box {
+    width: 29vw;
+  }
+  .weather-container .right-container .logo-box .logo-img {
+    width: 29vw;
+  }
+  .weather-container .right-container .weather-info {
+    width: 30vw;
+  }
+  .weather-container .right-container .search-box {
+    width: 30vw;
+  }
+  .weather-container .right-container .search-box .inputsearch {
+    width: 25vw;
+  }
+  .weather-container .right-container .search-box #citySubmit {
+    width: 5vw;
+  }
+  .weather-container .right-container .location-box, .weather-container .right-container .temp-box, .weather-container .right-container .humidity-box, .weather-container .right-container .maxtemp-box, .weather-container .right-container .mintemp-box, .weather-container .right-container .wind-box {
+    width: 40vw;
+  }
+}/*# sourceMappingURL=Responsive.css.map */

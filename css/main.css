@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(128, 128, 128, 0.381);
+  background-image: url(../assets/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.weather-container {
+  width: 40vw;
+  height: 70vh;
+  margin: 8rem auto;
+  display: flex;
+}
+.weather-container .left-container {
+  width: 22vw;
+  height: 70vh;
+  background-image: url(../assets/weatherbg.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 70%;
+}
+.weather-container .left-container .location-name {
+  width: 21vw;
+  height: 3vh;
+  color: white;
+  font-size: 1.5rem;
+  text-align: end;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.weather-container .left-container .Digitaltime-container {
+  width: 14vw;
+  height: 4vh;
+  font-size: 3rem;
+  color: white;
+  font-weight: 600;
+  transform: translate(0rem, 30rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.weather-container .left-container #DigitalHour, .weather-container .left-container #DigitalMinutes, .weather-container .left-container #DigitalSeconds, .weather-container .left-container #DigitalAmPm, .weather-container .left-container span {
+  gap: 2em;
+}
+.weather-container .left-container .date-temp {
+  width: 22vw;
+  height: 4vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transform: translate(0rem, 33rem);
+}
+.weather-container .left-container .date-temp .date {
+  width: 19vw;
+  height: 3vh;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 600;
+}
+.weather-container .left-container .date-temp .temp-c {
+  width: 3vw;
+  height: 3vh;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 600;
+}
+.weather-container .left-container .date-temp .temp-c #Temp {
+  font-size: 1.5rem;
+}
+.weather-container .right-container {
+  width: 18vw;
+  height: 70vh;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.202);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.weather-container .right-container .logo-box {
+  width: 18vw;
+  height: 10vh;
+  margin: 1rem 0;
+}
+.weather-container .right-container .logo-box .logo-img {
+  width: 10vw;
+  height: 10vh;
+}
+.weather-container .right-container .weather-info {
+  width: 14vw;
+  height: 4vh;
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.684);
+}
+.weather-container .right-container .search-box {
+  width: 15vw;
+  height: 6vh;
+  background-color: transparent;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+.weather-container .right-container .search-box .inputsearch {
+  width: 9vw;
+  height: 3vh;
+  outline: none;
+  border: none;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: transparent;
+  border-bottom: 2px solid rgb(240, 240, 240);
+}
+.weather-container .right-container .search-box #citySubmit {
+  width: 2vw;
+  height: 4vh;
+  border-radius: 100%;
+  color: white;
+  background-color: rgba(246, 246, 246, 0.059);
+  border: none;
+}
+.weather-container .right-container .location-box {
+  width: 15vw;
+  height: 4vh;
+  color: white;
+  border-bottom: 1.5px solid white;
+  text-transform: capitalize;
+}
+.weather-container .right-container .temp-box {
+  width: 15vw;
+  height: 4vh;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1.5px solid white;
+}
+.weather-container .right-container .humidity-box {
+  width: 15vw;
+  height: 4vh;
+  color: white;
+  border-bottom: 1.5px solid white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.weather-container .right-container .maxtemp-box {
+  width: 15vw;
+  height: 4vh;
+  color: white;
+  border-bottom: 1.5px solid white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.weather-container .right-container .mintemp-box {
+  width: 15vw;
+  height: 4vh;
+  color: white;
+  border-bottom: 1.5px solid white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.weather-container .right-container .wind-box {
+  width: 15vw;
+  height: 4vh;
+  color: white;
+  border-bottom: 1.5px solid white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}/*# sourceMappingURL=main.css.map */
