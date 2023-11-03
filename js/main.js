@@ -1,6 +1,5 @@
 const url =
   "https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=";
-  // "https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?lat=${lat}&lon=${lon}";
 const options = {
   method: "GET",
   headers: {
@@ -93,54 +92,4 @@ function DigitalClock() {
 }
 setInterval(DigitalClock, 100);
 
-
-
-// getPosition = (options) => {
-//   return new Promise((resolve, reject) => {
-//     navigator.geolocation.getCurrentPosition(resolve, reject, options);
-//   });
-// };
-
-  
-// const weatherapi = {
-//   base: "https://api.openweathermap.org/data/2.5/",
-//   appid: "246fe3a83a3cc4286ae9aef449cf3183"
-// }
-
-  // const getlocation = () => {
-  //   if (navigator.geolocation) {
-  //     // this.getPosition();
-  //     navigator.geolocation.getCurrentPosition(showPosition);
-  //   } else {
-  //     alert("Geolocation is not supported by this browser");
-  //   }
-  //   function showPosition(position) {
-  //     lat.innerHTML = position.coords.latitude;
-  //     lon.innerHTML = position.coords.longitude;
-  //   }
-  // };
-  // getlocation();
-
-// const openweather = async (lat, lon) => { 
-//   try {
-//     const response = await fetch(
-      // `${weatherapi.base}weather?lat=${lat}&lon=${lon}&lang=hi&units=metric&appid=${weatherapi.appid}`
-//     );
-//     const result = await response.json();
-//     console.log(result);
-//     this.setState({
-//       lat: lat,
-//       lon: lon,
-//       city: result.name,
-//       temperatureC: Math.round(result.main.temp),
-//       temperatureF: Math.round(result.main.temp * 1.8 + 32),
-//       humidity: result.main.humidity,
-//       main: result.weather[0].main,
-//       country: result.sys.country,
-//     });
-//   } catch (error) {
-//     console.error(error);
-//   }
-// }
-// openweather("lat = '19.1922716', lon ='72.8465408'");
 
